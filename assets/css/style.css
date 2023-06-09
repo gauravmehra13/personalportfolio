@@ -1894,3 +1894,42 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+
+.skill {
+  padding: 20px;
+  text-align: center;
+}
+
+.skillwrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category {
+  margin: 20px;
+}
+
+.category-title {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.image-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-list img {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .category {
+    width: 100%;
+  }
+}
